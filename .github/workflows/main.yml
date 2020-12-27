@@ -33,5 +33,6 @@ jobs:
             cd cltk_api/
             git pull https://github.com/bblumenfelder/cltk_api.git
             docker-compose up --build
+            exit
 
 
